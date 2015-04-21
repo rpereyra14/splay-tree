@@ -10,11 +10,11 @@ This implementation builds and maintains a balanced splay tree that can be contr
 
 Type i (insert), d (delete), g (get), or c (contains). Include element as a parameter. Example: "i a" would insert the letter a into the tree.
 
-Other funcs: m (print min), x (print max), h (print height), n (print node count), p (print tree).
+Other functions: m (print min), x (print max), h (print height), n (print node count), p (print tree).
 
-Shortcut func: f <x> <a> <b> (fill tree with x nodes of length btwn a and b; default: btwn 5 and 25 chars).
+Shortcut function: f x a b (fill tree with x nodes of length btwn a and b chars; default a and b, respectively: btwn 5 25).
 
-Shortcut func: r <a> <b> (equivalent to f 1 <a> <b>; default: btwn 5 and 25 chars).
+Shortcut function: f a b (equivalent to "f 1 a b"; default a and b chars, respectively: 5 and 25).
 
 Type ? into prompt to re-print this description.
 
