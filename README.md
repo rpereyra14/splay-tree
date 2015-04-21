@@ -1,10 +1,14 @@
-Usage:
+### Overview:
+
+This implementation builds and maintains a balanced splay tree that can be controlled through the commands below.
+
+### Usage:
 
 	$ java SplayTreeDriver
 
-Instructions:
+### Instructions:
 
-Type i (insert), d (delete), g (get), or c (contains). Include element as a parameter (space delim).
+Type i (insert), d (delete), g (get), or c (contains). Include element as a parameter. Example: "i a" would insert the letter a into the tree.
 
 Other funcs: m (print min), x (print max), h (print height), n (print node count), p (print tree).
 
